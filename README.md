@@ -5,13 +5,6 @@ This is a full-stack MERN (MongoDB, Express.js, React, Node.js) food delivery pl
 
 ---
 
-## 🌐 Live Demo
-
-- **Frontend:** [Frontend Link](https://nitt-food-delivery-website-frontend.onrender.com)
-- **Backend:** [Backend Link](https://nitt-food-delivery-website-backend.onrender.com)
-
----
-
 ## 📌 Features
 
 ### 👤 Student Module
