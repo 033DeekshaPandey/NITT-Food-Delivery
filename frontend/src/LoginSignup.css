@@ -1,0 +1,86 @@
+html,
+body {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+#root {
+  display: block;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+.container {
+  width: 100% !important;
+  max-width: 500px !important;
+  margin: 50px auto !important;
+  background-color: #f6fef8;
+  padding: 50px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  .container {
+    max-width: 90%;
+    padding: 20px;
+  }
+}
+
+.login1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.login1 .form-label {
+  font-weight: 600;
+  color: #1e5625;
+}
+
+.myinput {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #86b78e;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  background-color: #ffffff;
+  color: black;
+}
+
+.myinput:focus {
+  outline: none;
+  border-color: #1e5625;
+  box-shadow: 0 0 0 2px rgba(30, 86, 37, 0.2);
+}
+
+.mybtn {
+  background-color: #1e5625;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  text-decoration: none;
+}
+
+.mybtn:hover {
+  background-color: #14511c;
+}
+
+.mb-3 {
+  margin-bottom: 20px;
+}
+
+a.mybtn {
+  display: inline-block;
+}
+
+.form-text {
+  color: #6b8c7b;
+  font-size: 0.85rem;
+}
