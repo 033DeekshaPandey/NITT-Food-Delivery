@@ -33,7 +33,7 @@ This is a full-stack MERN (MongoDB, Express.js, React, Node.js) food delivery pl
 
 | Category   | Technology                          |
 |------------|-------------------------------------|
-| Frontend   | React.js, Boostrap                  |
+| Frontend   | React.js, Bootstrap                  |
 | Backend    | Node.js, Express.js                 |
 | Database   | MongoDB                             |
 | Auth       | JWT, Bcrypt.js                      |
